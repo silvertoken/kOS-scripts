@@ -16,6 +16,12 @@ else {
 // load initial configuration
 lib("gui").
 
+//load telemetry
+lib("telemetry").
+
+//load science
+lib("science").
+
 // load mission scripts
 if missions() {
     message("Missions loaded...").
